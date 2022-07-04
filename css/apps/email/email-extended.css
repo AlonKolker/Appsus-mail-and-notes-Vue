@@ -1,0 +1,84 @@
+.extended-mail{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: rgb(176, 196, 206);
+    border-bottom: 2px solid #e3e8ea;
+    border-radius:10px;
+}
+.extend-mail-content{
+    padding:10px 10px 20px 20px;
+}
+.extend-mail-body{
+    margin-top: 1rem;
+}
+.email-line{
+    list-style-type: none;
+}
+
+.star {
+  color: lightslategray;
+  display: flex;
+  padding: 10px;
+  border-radius: 40px;
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  transition: color 0.5s, background-color 0.5s;
+}
+.star:hover {
+  color: yellow;
+  background-color: rgba(211, 211, 211, 0.37);
+}
+.is-star-on {
+  color: yellow;
+}
+
+.is-star-off{
+    color: lightslategray;
+
+}
+
+.extended-delete{
+border-radius: 50%;
+font-size: large;
+border: none;
+background-color:  rgba(231, 231, 231, 0.832) ;
+}
+.extended-delete:hover{
+color: rgb(189, 55, 55) ;
+cursor: pointer;
+
+}
+.extended-mail-header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0.5rem;
+    background-color: rgb(193, 213, 224);;
+}
+
+.extended-more{
+    border-radius: 50%;
+    font-size: large;
+    border: none;
+    background-color:  rgba(231, 231, 231, 0.832) ;
+    }
+    .extended-more:hover{
+    color: rgb(189, 55, 55) ;
+    cursor: pointer;
+    
+    }
+
+    .extended-options-modal{
+        position: absolute;
+        background-color: rgb(230, 213, 213);
+        width: 10rem;
+        right:3.4rem;
+        padding: 0.5rem;
+        /* margin: 0.4rem; */
+        box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;  
+        cursor:pointer;
+      }

@@ -1,0 +1,41 @@
+.note-create-container {
+  margin: 2rem auto;
+  position: relative;
+}
+
+.note-create-btns-container {
+  position: absolute;
+  top: 0.9rem;
+  right: 1rem;
+}
+
+.note-txt-input {
+  width: 35rem;
+  padding: 0.7rem 1rem;
+  font-size: 1.5rem;
+}
+
+.note-create-btn {
+  font-size: 1.5rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s;
+}
+
+.note-text-btn:hover {
+  color: rgba(50, 205, 50, 0.671);
+}
+
+.note-img-btn:hover {
+  color: rgba(0, 153, 255, 0.671);
+}
+
+.note-video-btn:hover {
+  color: rgba(255, 0, 0, 0.73);
+}
+
+.note-todo-btn:hover {
+  color: rgba(255, 225, 0, 0.73);
+}

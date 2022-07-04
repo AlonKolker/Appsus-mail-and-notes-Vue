@@ -1,0 +1,8 @@
+.note-list {
+  margin: 0 auto 2rem;
+  column-gap: 0.3em;
+  column-count: 5;
+  vertical-align: baseline;
+  width: 95vw;
+  padding-left: 1em;
+}

@@ -1,0 +1,24 @@
+.app-page {
+  text-align: center;
+}
+
+.hero-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
+  height: 82vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-img img {
+  width: 20%;
+}
+
+.hero-title {
+  font-size: 3rem;
+}

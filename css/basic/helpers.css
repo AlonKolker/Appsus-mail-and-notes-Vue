@@ -1,0 +1,23 @@
+.flex{
+    display: flex;
+    
+}
+.space-between{
+    justify-content: space-between;
+}
+.flex-row{
+    flex-direction: row;
+}
+
+.space-evenly{
+    justify-content:space-evenly;
+}
+
+.flex-column{
+    flex-direction: column;
+
+}
+.row-reverse{
+    flex-direction: row-reverse;
+
+}

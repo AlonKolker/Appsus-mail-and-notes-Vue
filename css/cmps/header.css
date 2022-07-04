@@ -1,0 +1,104 @@
+.app-nav {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(to right, #00416a8b, #e4e5e674);
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.nav-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.menu-open-btn {
+  font-size: 3.5em;
+  align-items: center;
+  right: 0.5rem;
+  top: 2rem;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  padding-inline-end: 1.5rem;
+  color: rgb(41, 41, 41);
+  text-shadow: 0px 0px 2px black;
+  transition: color 0.2s, text-shadow 0.2s;
+}
+
+.menu-open-btn:hover {
+  color: rgb(138, 138, 138);
+  text-shadow: 0px 0px 2px black;
+}
+
+.app-navigation {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: rgba(0, 149, 255, 0.15);
+  border-radius: 1rem;
+  margin: 0.4rem;
+}
+
+.app-logo img {
+  /* display: flex; */
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+.app-logo img:hover {
+  animation: move-header 0.5s linear;
+}
+
+.app-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.nav-anchor {
+  color: black;
+  transition: color 0.2s;
+  margin: auto 0.5rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-content: center;
+  padding: 0.5rem;
+}
+
+.app-nav a:hover {
+  color: #58a3ea;
+}
+
+.app-navigation .fa-solid {
+  margin-left: 0.2rem;
+}
+
+.v-enter-active,
+.v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+  opacity: 0;
+}
+
+@keyframes move-header {
+  from {
+    transform: translateY(0%);
+  }
+  30% {
+    transform: translateY(5%);
+  }
+  50% {
+    transform: translateY(0%);
+  }
+  70% {
+    transform: translateY(-5%);
+  }
+  to {
+    transform: translateY(0%);
+  }
+}

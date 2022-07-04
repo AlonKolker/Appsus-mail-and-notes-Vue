@@ -1,0 +1,56 @@
+/* MOBILE */
+@media screen and (max-width: 900px) {
+  .menu-open-btn {
+    font-size: 2.5em;
+    padding: 0.5em;
+  }
+
+  .app-logo img {
+    width: 30%;
+  }
+
+  .note-txt-input {
+    width: 100%;
+    font-size: 0.9rem;
+    padding-inline-end: 9rem;
+  }
+
+  .note-create-btn {
+    font-size: 1rem;
+  }
+
+  .note-create-btns-container {
+    top: 0.6rem;
+    right: 0.5rem;
+  }
+
+  .note-list {
+    column-count: auto;
+  }
+
+  .note-preview img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+/* SMALL */
+@media screen and (min-width: 900px) {
+  html {
+    font-size: 13px;
+  }
+  .note-list {
+    column-count: 3;
+  }
+}
+
+/* WIDE */
+@media screen and (min-width: 1500px) {
+  html {
+    font-size: 16px;
+  }
+
+  .note-list {
+    column-count: 5;
+  }
+}

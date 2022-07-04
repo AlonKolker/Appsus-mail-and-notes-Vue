@@ -1,0 +1,7 @@
+.note-app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: whitesmoke;
+  font-size: 1.2rem;
+}

@@ -1,0 +1,28 @@
+.note-menu {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.note-menu-btn {
+  border: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  padding: 0.2rem;
+  margin: 0.7rem 0.5rem;
+  cursor: pointer;
+  color: black;
+  transition: color 0.3s;
+}
+
+.note-menu-btn:hover {
+  color: rgba(0, 0, 255, 0.455);
+}
+
+.pinned {
+  color: rgba(0, 0, 255, 0.455);
+}
+
+.note-color-btn-container {
+  position: relative;
+}

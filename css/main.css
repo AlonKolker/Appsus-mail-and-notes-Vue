@@ -1,0 +1,37 @@
+/* SETUP */
+@import 'setup/vars.css';
+@import 'setup/typography.css';
+
+/* BASE */
+@import 'basic/base.css';
+@import 'basic/layout.css';
+@import 'basic/helpers.css';
+
+/* COMPONENTS */
+@import 'cmps/header.css';
+@import 'cmps/app-home.css';
+@import 'cmps/user-msg.css';
+@import 'cmps/main-content.css';
+
+/* MAIL APP */
+@import 'apps/email/email-list.css';
+@import 'apps/email/email-preview.css';
+@import 'apps/email/mail-side-bar.css';
+@import 'apps/email/new-mail-modal.css';
+@import 'apps/email/email-filter.css';
+@import 'apps/email/email-extended.css';
+
+/* KEEP APP */
+@import 'apps/keep/note-app.css';
+@import 'apps/keep/note-preview.css';
+@import 'apps/keep/note-list.css';
+@import 'apps/keep/note-create.css';
+@import 'apps/keep/note-menu.css';
+@import 'apps/keep/note-template.css';
+@import 'apps/keep/note-color-select.css';
+@import 'apps/keep/note-edit.css';
+@import 'apps/keep/note-filter.css';
+
+/* MEDIA QUERIES */
+@import 'mq/mq-keep.css';
+@import 'mq/mq-email.css';

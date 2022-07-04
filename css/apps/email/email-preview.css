@@ -1,0 +1,15 @@
+.email-preview {
+  display: grid;
+  grid-template-columns: 0.5fr 1fr 2fr 6fr 1fr;
+  grid-template-rows: 1fr;
+  height: 60px;
+  align-items: center;
+  padding: 0 10px 0 3px;
+  box-shadow: inset 0 -1px 0 0 rgba(100, 121, 143, 0.122);
+  cursor: pointer;
+  background-color: rgb(213, 240, 240);
+}
+
+.un-readed {
+  font-weight: 800;
+}

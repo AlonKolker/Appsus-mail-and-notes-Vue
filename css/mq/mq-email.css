@@ -1,0 +1,142 @@
+@media (max-width: 1600px) {
+  .email-preview {
+    height: 150px;
+    gap: 10px;
+    font-size: 0.9rem;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
+  .new-mail-modal {
+    width: 70%;
+  }
+  .mail-body-input {
+    height: 21.5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .email-preview {
+    height: 150px;
+    gap: 10px;
+    font-size: 0.9rem;
+  }
+
+  ul {
+    padding-inline-start: 20px;
+  }
+  .new-mail-modal {
+    width: 23%;
+  }
+}
+
+@media (max-width: 930px) {
+  .mail-main-conteiner {
+    display: flex;
+    flex-direction: column;
+  }
+  .mail-side-bar {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+  }
+  ul {
+    padding-inline-start: 20px;
+  }
+  .side-bar-btns {
+    height: 0;
+    margin-top: 1.5rem;
+    /* font-size: 1rem; */
+  }
+  .mail-filter {
+    width: 42%;
+    margin: 0 auto;
+    position: unset;
+  }
+  .mail-filter input {
+    font-size: 1.1rem;
+  }
+  .app-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 5.7rem;
+    z-index: 1;
+    /* height: 400px; */
+    background-color: rgb(213, 240, 240);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-bottom: 1px solid rgba(213, 240, 240, 0.313);
+  }
+
+  .nav-anchor {
+    border-bottom: 1px solid rgb(129, 203, 203);
+    line-height: 60px;
+  }
+  .compose-btn {
+    width: 6rem;
+    font-size: 0.8rem;
+  }
+  .send-delete-row {
+    padding-bottom: 40px;
+  }
+  .mail-body-input {
+    padding: 0;
+  }
+  .email-list-container {
+    width: 97%;
+  }
+
+  .new-mail-modal {
+    width: 70%;
+  }
+
+  .mail-body-input {
+    height: 24.5rem;
+  }
+}
+
+@media (max-width: 630px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .mail-filter input {
+    width: 100%;
+  }
+  .mail-filter select {
+    font-size: 0.9rem;
+  }
+  .new-mail-modal {
+    /* right: auto; */
+    margin-inline-start: 100px;
+  }
+  .mail-side-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: auto;
+    justify-items: start;
+    align-items: flex-end;
+    margin: 0.5rem;
+  }
+  .sent-btn {
+    grid-column: 2/3;
+  }
+  .compose-btn {
+    grid-row: span 2;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  .side-bar-btns {
+    padding: 1rem;
+    margin: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .side-bar-btns {
+    font-size: 0.85rem;
+  }
+}

@@ -1,0 +1,49 @@
+.info-txt {
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.todos-ul {
+  list-style-type: none;
+}
+
+.todo-li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+  padding: 0 5px;
+  cursor: pointer;
+}
+
+.todo-remove-btn {
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  line-height: 1rem;
+  cursor: pointer;
+  color: black;
+  transition: color 0.2s;
+}
+
+.todo-remove-btn:hover {
+  color: rgba(255, 0, 0, 0.725);
+}
+
+.next-todo-input {
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  font-size: 1.5rem;
+  padding-left: 5px;
+  margin-top: 0.1rem;
+  outline: none;
+}
+
+.todo-finished {
+  text-decoration: line-through;
+}
+
+.todo-unfinished {
+  text-decoration: none;
+}

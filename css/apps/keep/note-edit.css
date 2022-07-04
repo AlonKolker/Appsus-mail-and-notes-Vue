@@ -1,0 +1,40 @@
+.edit-note {
+  margin: 0.5rem auto;
+}
+
+.edit-note input {
+  border: 1px solid rgba(0, 0, 0, 0.422);
+  font-size: 1.1rem;
+  padding: 0.5rem 1.2rem;
+  background-color: transparent;
+  border-radius: 30px;
+}
+
+.edit-note-btn-container {
+  margin: 1rem auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.edit-note-btn-container button {
+  font-size: 1rem;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 30px;
+  background-color: transparent;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s, background-color 0.2s;
+}
+
+.edit-note-btn-container .edit-note-btn-update:hover {
+  color: rgb(4, 255, 142);
+  background-color: #b1b7ba;
+}
+
+.edit-note-btn-container .edit-note-btn-cancel:hover {
+  color: rgba(255, 4, 4, 0.652);
+  background-color: #b1b7ba;
+}

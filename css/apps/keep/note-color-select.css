@@ -1,0 +1,57 @@
+.note-color-select {
+  position: absolute;
+  display: flex;
+  transform: translateX(-800%);
+  opacity: 0;
+  transition: opacity 0.2s;
+  padding-top: 0.5rem;
+  background-color: rgba(195, 195, 195, 0.903);
+  padding: 0.5rem;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.364);
+}
+
+.note-menu-color-btn-container:hover > .note-color-select {
+  opacity: 1;
+  position: absolute;
+  transform: translateY(-208%) translateX(-11%);
+}
+
+.note-colors-palette {
+  border-radius: 50%;
+  width: 1.5em;
+  height: 1.5em;
+  transform: scale(1);
+  transition: all 0.3s;
+  margin: 0.3rem;
+  cursor: pointer;
+  border: solid 1px rgb(83, 83, 83);
+}
+
+.palette-white {
+  background-color: #fdfdfd;
+}
+
+.palette-red {
+  background-color: #ff8888;
+}
+
+.palette-orange {
+  background-color: #ffcc88;
+}
+
+.palette-yellow {
+  background-color: #ffff88;
+}
+
+.palette-green {
+  background-color: #ccff99;
+}
+
+.palette-blue {
+  background-color: #aaffee;
+}
+
+.palette-purple {
+  background-color: #ddbbff;
+}
